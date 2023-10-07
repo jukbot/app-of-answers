@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "question",
+    "name": "App of Ans",
     "slug": "question",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.puchida.appofanswers",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.2"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,12 +23,18 @@
         "backgroundColor": "#1E3453"
       },
       "package": "com.puchida.appofanswers",
-      "versionCode": 1
+      "versionCode": 4
     },
     "extra": {
       "eas": {
         "projectId": "df704808-dc52-4d0b-b843-b620dfe287df"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/df704808-dc52-4d0b-b843-b620dfe287df"
     }
   }
 }

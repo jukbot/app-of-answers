@@ -1,22 +1,41 @@
 {
   "cli": {
     "version": ">= 5.3.0",
-    "promptToConfigurePushNotifications": false
+    "promptToConfigurePushNotifications": false,
+    "appVersionSource": "remote"
   },
   "build": {
     "development": {
+      "distribution": "internal",
       "developmentClient": true,
-      "distribution": "internal"
+      "ios": {
+        "simulator": true
+      }
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk"
+        "buildType": "app-bundle"
       }
     },
-    "production": {}
+    "production": {
+      "distribution": "store",
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "/Users/chukkrit/Workspaces/puchida/service-account/googleplay-service-account.json",
+        "track": "internal"
+      },
+      "ios": {
+        "appleId": "chukkrit.juk@gmail.com",
+        "ascAppId": "6467768438",
+        "appleTeamId": "MU28E5798Y"
+      }
+    }
   }
 }

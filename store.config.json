@@ -1,0 +1,47 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "version": "1.0.2",
+    "copyright": "Juk",
+    "release": {
+      "automaticRelease": false
+    },
+    "info": {
+      "en-US": {
+        "description": "'App of Answers' entertains with amusing responses, aids decision-making with fresh perspectives, inspires creativity for projects, and fits into daily routines for daily fun.",
+        "keywords": ["app of answers"],
+        "promoText": "Unpredictable way to get your answer.",
+        "supportUrl": "https://notion.com/support",
+        "title": "App of answers",
+        "subtitle": "Another way to get your answer"
+      }
+    },
+    "categories": ["REFERENCE"],
+    "advisory": {
+      "alcoholTobaccoOrDrugUseOrReferences": "NONE",
+      "contests": "NONE",
+      "gamblingSimulated": "NONE",
+      "horrorOrFearThemes": "NONE",
+      "matureOrSuggestiveThemes": "NONE",
+      "medicalOrTreatmentInformation": "NONE",
+      "profanityOrCrudeHumor": "NONE",
+      "sexualContentGraphicAndNudity": "NONE",
+      "sexualContentOrNudity": "NONE",
+      "violenceCartoonOrFantasy": "NONE",
+      "violenceRealistic": "NONE",
+      "violenceRealisticProlongedGraphicOrSadistic": "NONE",
+      "gambling": false,
+      "unrestrictedWebAccess": false,
+      "kidsAgeBand": null,
+      "seventeenPlus": true
+    },
+    "review": {
+      "firstName": "Chukkrit",
+      "lastName": "Visitstaktavorn",
+      "email": "chukkrit.juk@gmail.com",
+      "phone": "+66863613535",
+      "demoRequired": false,
+      "notes": "No need to sign in for current version."
+    }
+  }
+}
