@@ -4,12 +4,12 @@
     "slug": "question",
     "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1E3453"
+      "backgroundColor": "#151633"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
@@ -20,7 +20,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#1E3453"
+        "backgroundColor": "#151633"
       },
       "package": "com.puchida.appofanswers",
       "versionCode": 4
@@ -35,6 +35,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/df704808-dc52-4d0b-b843-b620dfe287df"
-    }
+    },
+    "plugins": [["expo-av"]]
   }
 }
