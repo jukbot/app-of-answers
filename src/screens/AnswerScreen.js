@@ -81,7 +81,7 @@ const AnswerScreen = () => {
             <View style={styles.textView}>
               <Text
                 style={{
-                  fontSize: responsiveFontSize(2.2),
+                  fontSize: responsiveFontSize(2.4),
                   color: "#fff",
                   textAlign: "center",
                   lineHeight: responsiveFontSize(3.4),
@@ -155,8 +155,8 @@ const styles = StyleSheet.create({
     opacity: 0.9,
   },
   textView: {
-    paddingLeft: 20,
-    paddingRight: 20,
+    paddingLeft: 10,
+    paddingRight: 10,
     width: responsiveWidth(80),
   },
   button: {
