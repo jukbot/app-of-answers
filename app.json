@@ -2,7 +2,7 @@
   "expo": {
     "name": "App of Ans",
     "slug": "question",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.puchida.appofanswers",
-      "buildNumber": "1.0.2"
+      "buildNumber": "1.0.3"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +23,7 @@
         "backgroundColor": "#151633"
       },
       "package": "com.puchida.appofanswers",
-      "versionCode": 4
+      "versionCode": 8
     },
     "extra": {
       "eas": {
