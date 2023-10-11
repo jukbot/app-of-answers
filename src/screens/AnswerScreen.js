@@ -157,6 +157,7 @@ const styles = StyleSheet.create({
   textView: {
     paddingLeft: 20,
     paddingRight: 20,
+    width: responsiveWidth(80),
   },
   button: {
     padding: 15,
