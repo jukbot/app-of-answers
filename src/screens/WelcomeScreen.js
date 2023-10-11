@@ -141,7 +141,6 @@ const styles = StyleSheet.create({
     opacity: 0.1,
     backgroundColor: "#000000",
     height: height,
-    width: width,
   },
   backgroundVideo: {
     flex: 1,

@@ -8,7 +8,7 @@ import {
   Dimensions,
   ImageBackground,
 } from "react-native";
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import {
   responsiveHeight,
   responsiveWidth,
@@ -62,6 +62,9 @@ const AnswerScreen = () => {
               {
                 // Bind opacity to animated value
                 opacity: fadeAnim,
+                flex: 1,
+                alignItems: "center",
+                justifyContent: "start",
               },
             ]}
           >
@@ -70,7 +73,7 @@ const AnswerScreen = () => {
               resizeMode="cover"
               style={{
                 padding: 0,
-                marginTop: responsiveHeight(20),
+                marginTop: responsiveHeight(24),
                 width: 200,
                 height: 120,
               }}
