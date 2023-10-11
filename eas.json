@@ -5,18 +5,15 @@
     "appVersionSource": "remote"
   },
   "build": {
-    "development": {
+    "preview": {
       "distribution": "internal",
-      "developmentClient": true,
       "ios": {
         "simulator": true
       }
     },
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "app-bundle"
-      }
+    "development": {
+      "distribution": "store",
+      "developmentClient": true
     },
     "production": {
       "distribution": "store",
