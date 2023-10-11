@@ -36,6 +36,16 @@
     "updates": {
       "url": "https://u.expo.dev/df704808-dc52-4d0b-b843-b620dfe287df"
     },
-    "plugins": ["expo-av"]
+    "plugins": [
+      ["expo-av"],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true
+          }
+        }
+      ]
+    ]
   }
 }
