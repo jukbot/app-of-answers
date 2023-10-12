@@ -74,7 +74,7 @@ const WelcomeScreen = () => {
               fontSize: responsiveFontSize(2.3),
               color: "#fff",
               textAlign: "center",
-              lineHeight: responsiveFontSize(3),
+              lineHeight: responsiveFontSize(3.2),
               fontFamily: "LoveLace",
               marginTop: responsiveHeight(1),
             }}
@@ -84,7 +84,7 @@ const WelcomeScreen = () => {
               fontSize: responsiveFontSize(2),
               color: "#fff",
               textAlign: "center",
-              lineHeight: responsiveFontSize(2.4),
+              lineHeight: responsiveFontSize(2.6),
               fontFamily: "LoveLace",
               marginTop: responsiveHeight(2),
             }}
