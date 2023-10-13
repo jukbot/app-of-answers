@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#151633"
     },
     "assetBundlePatterns": ["**/*"],
@@ -22,7 +22,7 @@
         "backgroundColor": "#151633"
       },
       "package": "com.puchida.appofanswers",
-      "versionCode": 8
+      "versionCode": 9
     },
     "extra": {
       "eas": {
