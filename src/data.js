@@ -1,4 +1,4 @@
-const dataArray = [
+export const statements = [
   "PROVIDED YOU SAY 'THANK YOU'",
   "YOUR ACTIONS WILL IMPROVE THINGS",
   "ONLY DO IT ONCE",

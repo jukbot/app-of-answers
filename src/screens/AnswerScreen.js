@@ -18,7 +18,7 @@ import {
 import { statements } from "../data";
 import { useNavigation } from "@react-navigation/native";
 
-const { height, width } = Dimensions.get("window");
+const { height } = Dimensions.get("window");
 
 const AnswerScreen = () => {
   const fadeAnim = useRef(new Animated.Value(0)).current;
@@ -46,6 +46,7 @@ const AnswerScreen = () => {
   return (
     <View style={styles.container}>
       <ImageBackground
+        resizeMode="cover"
         source={require("../../assets/bg.jpg")}
         style={styles.backgroundImage}
       >
@@ -135,7 +136,6 @@ const styles = StyleSheet.create({
     opacity: 0.1,
     backgroundColor: "#000000",
     height: height,
-    width: width,
   },
   backgroundVideo: {
     flex: 1,
